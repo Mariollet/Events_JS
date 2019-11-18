@@ -31,7 +31,18 @@ card_1_edit.addEventListener("click", () => {card_1.style.color = "red"});
 const card_2 = document.getElementsByClassName("card")[1];
 const card_2_edit = card_2.childNodes[3].childNodes[3].childNodes[1].childNodes[3];
 
-card_2_edit.addEventListener("click", () => {card_2.style.color = (card_2.style.color === 'red') ? "#212529" : 'red'});
+card_2_edit.addEventListener("click", () => {card_2.style.color = (card_2.style.color === 'green') ? "#212529" : 'green'});
+
+// Ou ...
+
+// card_2_edit.addEventListener("click", () => {
+//  if (card_2.style.color === 'green') {
+//    card_2.style.color = '#212529' ;
+//    }
+//  else {
+//    card_2.style.color = 'green' ;
+//    }
+//  });
 
 // Fonctionnalité 5
 
@@ -41,5 +52,14 @@ const link = document.getElementsByTagName("link")[0];
 header.addEventListener("dblclick", () => { link.disabled ? link.disabled = false : link.disabled = true });
 
 
+//Ou ...
 
+// header.addEventListener("dblclick", () => {
+//   if (link.disabled == false) {
+//   link.disabled = true;
+//   }
+//   else{
+//   linkz.disabled = false;}
+// });
 
+// Fonctionalité 6
