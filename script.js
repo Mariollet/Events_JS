@@ -33,6 +33,13 @@ const card_2_edit = card_2.childNodes[3].childNodes[3].childNodes[1].childNodes[
 
 card_2_edit.addEventListener("click", () => {card_2.style.color = (card_2.style.color === 'red') ? "#212529" : 'red'});
 
+// Fonctionnalité 5
+
+const header = document.getElementsByTagName("header")[0];
+const link = document.getElementsByTagName("link")[0];
+
+header.addEventListener("dblclick", () => { link.disabled ? link.disabled = false : link.disabled = true });
+
 
 
 
