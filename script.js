@@ -82,18 +82,18 @@ for (let card of cards) {
 });
 }
 
-
 // Ou ...
+  
 // const cards = document.getElementsByClassName("card")
 // for (let card of cards) {
 
 //   const card_edit = card.childNodes[3].childNodes[3].childNodes[1].childNodes[1];
 //   const card_text = card.childNodes[3].childNodes[1];
 //   const card_img = card.childNodes[1];
-// card_edit.addEventListener("mouseover", () => { 
+
+//   card_edit.addEventListener("mouseover", () => { 
 
 //     card_text.classList.toggle("collapse")
-
 //     if (card_img.style.width === "20%") {
 //       card_img.style.width = "100%";
 //       card_img.style.height = "100%";
