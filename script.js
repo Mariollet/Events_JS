@@ -1,6 +1,2 @@
-var footer = document.getElementsByTagName("footer");
-console.log(footer);
-function footerClicker() {
-
-}
-footer.addEventListener("click", footerClicker()
+const footer = document.getElementsByTagName("footer")[0];
+footer.addEventListener("click", () => {console.log("Clique")})
