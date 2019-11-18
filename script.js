@@ -7,3 +7,12 @@ footer.addEventListener("click", () => {console.log("Clique")});
 
 let counter = 0;
 footer.addEventListener("click", () => {console.log(`Clique ${counter++}`)});
+
+// Fonctionnalité 2
+
+const navbar = document.getElementsByClassName("navbar-toggler")[0];
+const navbarHeader = document.getElementById("navbarHeader");
+
+navbar.addEventListener("click", () => {navbarHeader.classList.toggle("collapse")});
+
+// Fonctionnalité 3
