@@ -116,12 +116,6 @@ right_btn.addEventListener("click", () => {carousel.insertBefore(carousel.lastEl
 
 // Fonctionnalité 8
 
-// const carousel = document.getElementsByClassName("row")[1];
-
-// console.log(carousel.lastElementChild)
-
-// const left_btn = document.getElementsByClassName("btn")[1];
-// console.log()
-
-// right_btn.addEventListener("click", () => {carousel.insertBefore(carousel.lastElementChild,carousel.firstElementChild)});
-// right_btn.addEventListener("click", () => { link.disabled = true });
+const left_btn = document.getElementsByClassName("btn")[0];
+left_btn.setAttribute("href", "#")
+left_btn.addEventListener("click", () => {carousel.insertBefore(carousel.firstElementChild,carousel.lastElementChild.nextSibling)});
