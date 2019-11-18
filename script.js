@@ -22,5 +22,17 @@ const card_1_edit = card_1.childNodes[3].childNodes[3].childNodes[1].childNodes[
 
 card_1_edit.addEventListener("click", () => {card_1.style.color = "red"});
 
+// Ou en sélectionnant le texte :
+// const card_text = card_1.childNodes[3].childNodes[1]
+// card_1_edit.addEventListener("click", () => card_text.style.color = "red");
+
 // Fonctionnalité 4
+
+const card_2 = document.getElementsByClassName("card")[1];
+const card_2_edit = card_2.childNodes[3].childNodes[3].childNodes[1].childNodes[3];
+
+card_2_edit.addEventListener("click", () => {card_2.style.color = (card_2.style.color === 'red') ? "#212529" : 'red'});
+
+
+
 
