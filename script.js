@@ -108,3 +108,14 @@ for (let card of cards) {
 
 // Fonctionnalité 7
 
+const right_btn = document.getElementsByClassName("btn")[1]
+const carousel = document.getElementsByClassName("row")[1]
+const last_card = carousel.childNodes[11]
+const first_card = carousel.childNodes[1]
+console.log(last_card)
+console.log(first_card)
+console.log(carousel)
+console.log(carousel.childNodes)
+
+
+right_btn.addEventListener("click", () => {carousel.insertBefore(last_card,first_card)});
