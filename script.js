@@ -20,3 +20,7 @@ navbarBtn.addEventListener("click", () => {navbarHeader.classList.toggle("collap
 const card_1 = document.getElementsByClassName("card")[0];
 const card_1_edit = card_1.childNodes[3].childNodes[3].childNodes[1].childNodes[3];
 
+card_1_edit.addEventListener("click", () => {card_1.style.color = "red"});
+
+// Fonctionnalité 4
+
